@@ -17,6 +17,8 @@ namespace Microsoft.PowerBI.Common.Api.Reports
 
         public string EmbedUrl { get; set; }
 
+        public string Datasource { get; set; }
+
         public string DatasetId { get; set; }
 
         public static implicit operator Report(PowerBI.Api.V2.Models.Report report)
